@@ -1,3 +1,5 @@
+/* Credit - https://www.sanfoundry.com/c-program-implement-rabin-miller-primality-test-check-number-prime/ */
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
