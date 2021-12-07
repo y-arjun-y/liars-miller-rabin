@@ -6,10 +6,8 @@ A return value of False means n in not prime.
 A return value of True means n is very likely to be a prime.
 '''
 
-import random
 
-
-def miller_rabin(n):
+def miller_rabin(n, a):
     # checking if it is an integer
     if n != int(n):
         return False
@@ -47,13 +45,9 @@ def miller_rabin(n):
     # number of trials, directly proportional to time and accuracy.
     num_trials = 10
 
-    # real run
-    for i in range(num_trials):
-        a = 1662803
+    # run
+    for _ in range(num_trials):
         if trial_composite(a):
             return False
 
     return True
-
-
-print(miller_rabin(1122004669633))
