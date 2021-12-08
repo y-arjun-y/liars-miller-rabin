@@ -4,10 +4,6 @@ Returns the composite numbers of a given range.
 
 from miller_rabin import miller_rabin
 
-upto = 1
-witness = 100
-
-
 def composite(int, a):
     results = []
 
@@ -16,6 +12,3 @@ def composite(int, a):
             results.append(i)
 
     return results
-
-
-print(composite(upto, witness))
