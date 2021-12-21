@@ -4,7 +4,7 @@ Finding liars in the Miller-Rabin primality test with Python. Learn more about t
 Use the table of contents feature on the top left-hand corner for easier viewing.
 
 ## Results (`n` is the number of witnesses, top 100 liars for 1 witness, top 500 liars for the rest, results are in certain ranges, feel free to generate more!)
-### 1 witness
+### Single witness
 #### 0 ≤ `n` < 99
 | Witness | Number of lies |
 |---------|----------------|
@@ -318,6 +318,7 @@ Use the table of contents feature on the top left-hand corner for easier viewing
 #### 0 ≤ `n` < 99
 | Witnesses | Number of lies |
 |-----------|----------------|
+| (1,1)     | 24             |
 | (0,0)     | 21             |
 | (0,1)     | 21             |
 | (0,2)     | 21             |
@@ -418,7 +419,7 @@ Use the table of contents feature on the top left-hand corner for easier viewing
 | (0,97)    | 21             |
 | (0,98)    | 21             |
 | (1,0)     | 21             |
-| (2,0)     | 21)            |
+| (2,0)     | 21             |
 | (3,0)     | 21             |
 | (4,0)     | 21             |
 | (5,0)     | 21             |
@@ -460,7 +461,7 @@ Use the table of contents feature on the top left-hand corner for easier viewing
 | (41,0)    | 21             |
 | (42,0)    | 21             |
 | (43,0)    | 21             |
-| (44,)     | 21             |
+| (44,0)    | 21             |
 | (45,0)    | 21             |
 | (46,0)    | 21             |
 | (47,0)    | 21             |
@@ -536,9 +537,9 @@ Use the table of contents feature on the top left-hand corner for easier viewing
 | (38,1)    | 4              |
 | (38,38)   | 4              |
 | (38,79)   | 4              |
-| (44,6)    | 4              |
-| (44,9)    | 4              |
-| (44,1)    | 4              |
+| (44,46)   | 4              |
+| (44,89)   | 4              |
+| (44,91)   | 4              |
 | (46,44)   | 4              |
 | (46,89)   | 4              |
 | (46,91)   | 4              |
