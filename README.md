@@ -1,5 +1,7 @@
 # Liars in the Miller-Rabin primality test
-Finding liars in the Miller-Rabin primality test with Python. Learn more about the Miller-Rabin primality test [here](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test). Inspired by [Numberphile](https://www.youtube.com/watch?v=_MscGSN5J6o)
+Finding liars in the Miller-Rabin primality test with Python. Learn more about the Miller-Rabin primality test [here](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test). Inspired by [Numberphile](https://www.youtube.com/watch?v=_MscGSN5J6o).
+
+Use the table of contents feature on the top left-hand corner for easier viewing.
 
 ## Results (`n` is the number of witnesses, top 100 liars for 1 witness, top 500 liars for the rest, results are in certain ranges, feel free to generate more!)
 ### 1 witness
