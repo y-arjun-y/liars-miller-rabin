@@ -3,7 +3,9 @@ Finding liars in the Miller-Rabin primality test with Python. Learn more about t
 
 Use the table of contents feature on the top left-hand corner for easier viewing.
 
-## Results (`n` is the range of witnesses, these results show the top 100 liars for a single witness and top 500 liars for the rest, these results are in certain ranges, so feel free to generate more with the Colab file!)
+## Results 
+Note: `n` is the range of witnesses, these results show the top 100 liars for a single witness and top 500 liars for the rest, these results are in certain ranges, so feel free to generate more with the Colab file!
+
 ### Single witness
 #### 0 ≤ `n` < 99
 | Witness | Number of lies |
