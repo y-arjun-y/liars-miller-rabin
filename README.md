@@ -1828,7 +1828,7 @@ Use the table of contents feature on the top left-hand corner for easier viewing
 
 
 ### 3 witnesses
-#### 0 ≤ `n` < 24
+#### 0 ≤ `n` < 25
 | Witnesses | Number of lies |
 |-----------|----------------|
 | (0,0,1)   | 5              |
@@ -1931,7 +1931,7 @@ Use the table of contents feature on the top left-hand corner for easier viewing
 | (0,3,23)  | 5              |
 | (0,3,24)  | 5              |
 
-#### 0 ≤ `n` < 49
+#### 0 ≤ `n` < 50
 | Witnesses | Number of lies |
 |-----------|----------------|
 | (0,0,0)   | 11             |
@@ -2035,7 +2035,7 @@ Use the table of contents feature on the top left-hand corner for easier viewing
 | (0,2,0)   | 11             |
 | (0,2,1)   | 11             |
 
-#### 0 ≤ `n` < 74
+#### 0 ≤ `n` < 75
 | Witnesses | Number of lies |
 |-----------|----------------|
 | (0,0,0)   | 17             |
@@ -2138,7 +2138,5 @@ Use the table of contents feature on the top left-hand corner for easier viewing
 | (0,1,22)  | 17             |
 | (0,1,23)  | 17             |
 | (0,1,24)  | 17             |
-
-### 4 witnesses
 
 More results coming soon.
