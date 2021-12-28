@@ -1,4 +1,4 @@
-Witnesses,Number of liars
+Witnesses (0<=n<50),Number of liars
 (0,0,0),11
 (0,0,1),11
 (0,0,2),11

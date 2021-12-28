@@ -1,15 +1,19 @@
 # Liars in the Miller-Rabin primality test
+
 Finding liars in the Miller-Rabin primality test with Python. Learn more about the Miller-Rabin primality test [here](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test). Inspired by [Numberphile](https://www.youtube.com/watch?v=_MscGSN5J6o).
 
 Use the table of contents feature on the top left-hand corner for easier viewing.
 
-## Results 
+## Results
+
 Note: `n` is the range of witnesses, these results show the top 100 liars for a single witness and top 500 liars for the rest, these results are in certain ranges, so feel free to generate more with the Colab file!
 
 ### Single witness
+
 #### 0 ≤ `n` < 99
+
 | Witness | Number of lies |
-|---------|----------------|
+| ------- | -------------- |
 | 1       | 24             |
 | 0       | 21             |
 | 74      | 5              |
@@ -111,8 +115,9 @@ Note: `n` is the range of witnesses, these results show the top 100 liars for a 
 | 63      | 0              |
 
 #### 0 ≤ `n` < 999
+
 | Witness | Number of lies |
-|---------|----------------|
+| ------- | -------------- |
 | 0       | 164            |
 | 676     | 18             |
 | 901     | 18             |
@@ -214,8 +219,9 @@ Note: `n` is the range of witnesses, these results show the top 100 liars for a 
 | 352     | 10             |
 
 #### 0 ≤ `n` < 4999
+
 | Witness | Number of liars |
-|---------|-----------------|
+| ------- | --------------- |
 | 0       | 665             |
 | 4096    | 70              |
 | 256     | 39              |
@@ -317,9 +323,11 @@ Note: `n` is the range of witnesses, these results show the top 100 liars for a 
 | 2974    | 25              |
 
 ### 2 witnesses
+
 #### 0 ≤ `n` < 99
+
 | Witnesses | Number of lies |
-|-----------|----------------|
+| --------- | -------------- |
 | (1,1)     | 24             |
 | (0,0)     | 21             |
 | (0,1)     | 21             |
@@ -822,8 +830,9 @@ Note: `n` is the range of witnesses, these results show the top 100 liars for a 
 | (67,31)   | 3              |
 
 #### 0 ≤ `n` < 199
+
 | Witnesses | Number of lies |
-|-----------|----------------|
+| --------- | -------------- |
 | (1,1)     | 53             |
 | (0,0)     | 42             |
 | (0,1)     | 42             |
@@ -1326,8 +1335,9 @@ Note: `n` is the range of witnesses, these results show the top 100 liars for a 
 | (176,174) | 5              |
 
 #### 0 ≤ `n` < 299
+
 | Witnesses | Number of lies |
-|-----------|----------------|
+| --------- | -------------- |
 | (0,0)     | 58             |
 | (0,1)     | 58             |
 | (0,2)     | 58             |
@@ -1828,11 +1838,12 @@ Note: `n` is the range of witnesses, these results show the top 100 liars for a 
 | (199,0)   | 58             |
 | (200,0)   | 58             |
 
-
 ### 3 witnesses
+
 #### 0 ≤ `n` < 25
+
 | Witnesses | Number of liars |
-|-----------|-----------------|
+| --------- | --------------- |
 | (0,0,0)   | 5               |
 | (0,0,1)   | 5               |
 | (0,0,2)   | 5               |
@@ -2335,8 +2346,9 @@ Note: `n` is the range of witnesses, these results show the top 100 liars for a 
 | (0,19,24) | 5               |
 
 #### 0 ≤ `n` < 50
+
 | Witnesses | Number of liars |
-|-----------|-----------------|
+| --------- | --------------- |
 | (0,0,0)   | 11              |
 | (0,0,1)   | 11              |
 | (0,0,2)   | 11              |
@@ -2839,8 +2851,9 @@ Note: `n` is the range of witnesses, these results show the top 100 liars for a 
 | (0,10,9)  | 11              |
 
 #### 0 ≤ `n` < 75
+
 | Witnesses | Number of lies |
-|-----------|----------------|
+| --------- | -------------- |
 | (0,0,0)   | 17             |
 | (0,0,1)   | 17             |
 | (0,0,2)   | 17             |
@@ -3343,9 +3356,11 @@ Note: `n` is the range of witnesses, these results show the top 100 liars for a 
 | (0,6,49)  | 17             |
 
 ### 4 witnesses
+
 #### 0 ≤ `n` < 15
+
 | Witnesses   | Number of lies |
-|-------------|----------------|
+| ----------- | -------------- |
 | (0,0,0,0)   | 2              |
 | (0,0,0,1)   | 2              |
 | (0,0,0,2)   | 2              |
@@ -3847,9 +3862,10 @@ Note: `n` is the range of witnesses, these results show the top 100 liars for a 
 | (0,2,3,3)   | 2              |
 | (0,2,3,4)   | 2              |
 
-#### 0 ≤`n` < 20
+#### 0 ≤ `n` < 20
+
 | Witnesses   | Number of lies |
-|-------------|----------------|
+| ----------- | -------------- |
 | (0,0,0,0)   | 4              |
 | (0,0,0,1)   | 4              |
 | (0,0,0,2)   | 4              |
@@ -4351,9 +4367,10 @@ Note: `n` is the range of witnesses, these results show the top 100 liars for a 
 | (0,1,7,4)   | 4              |
 | (0,1,7,5)   | 4              |
 
-#### 0 ≤`n` < 25
+#### 0 ≤ `n` < 25
+
 | Witnesses   | Number of lies |
-|-------------|----------------|
+| ----------- | -------------- |
 | (0,0,0,0)   | 5              |
 | (0,0,0,1)   | 5              |
 | (0,0,0,2)   | 5              |
