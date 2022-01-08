@@ -2,11 +2,11 @@
 
 Finding liars in the Miller-Rabin primality test with Python. Learn more about the Miller-Rabin primality test [here](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test). Inspired by [Numberphile](https://www.youtube.com/watch?v=_MscGSN5J6o).
 
-Use the table of contents feature on the top left-hand corner for easier viewing.
+Use the table of contents feature on the top left-hand corner for easier navigating.
 
 ## Results
 
-Note: `n` is the range of witnesses, these results show the top 100 liars for a single witness and top 500 liars for the rest, these results are in certain ranges, so feel free to generate more with the Colab file!
+Note: `n` is the range of witnesses, these results show the top 100 liars for a single witness and top 500 liars for the rest and these results are in certain ranges, so feel free to generate more with the Colab file!
 
 ### Single witness
 
